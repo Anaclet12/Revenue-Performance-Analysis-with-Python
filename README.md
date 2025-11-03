@@ -1,4 +1,5 @@
-![UK Customer Spending Banner](https://wherewouldyougo.com/wp-content/uploads/2015/11/Big-Ben-Flag-United-Kingdom.jpg)
+![UK Customer Spending Banner]<img width="1790" height="620" alt="image" src="https://github.com/user-attachments/assets/68390f79-e5e9-44ef-99c3-9133323f1c00" />
+
 
 # 🏙️ UK Customer Spending Analysis
 
