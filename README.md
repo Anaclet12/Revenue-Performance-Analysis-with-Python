@@ -1,3 +1,5 @@
+![UK Customer Spending Banner](https://images.unsplash.com/photo-1565372918675-b8c8f0b9ce2b?auto=format&fit=crop&w=1200&q=80)
+
 # 🏙️ UK Customer Spending Analysis
 
 ## 1. Project Overview
