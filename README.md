@@ -88,7 +88,7 @@ However, when comparing spending across all cities, we observe that **several re
 ## 8. Appendix
 **Tools and Libraries:**
 - Python (`pandas`, `plotly`)
-- Jupyter Notebook for exploratory analysis
+- Jupyter Notebook for exploratory analysis [Notebook](https://github.com/Anaclet12/UK-Customer-Spending-Analysis/blob/main/scripts/UK%20Customer%20Spending%20Analysis.ipynb)
 - GOV.UK dataset for the official list of cities
 
 **Key Resources:**
