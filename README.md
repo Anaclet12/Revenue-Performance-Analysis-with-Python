@@ -63,7 +63,7 @@ The analysis follows a straightforward, results-oriented workflow:
 
 - **Pie Chart (London vs Other vs Rest)** – shows the dominance of London compared to other areas.  
 <p align="center">
-  <img src="images/pie_chart.png" width="600" alt="Pie Chart London vs Other vs Rest">
+  <img src="docs/total_spend_distribution.png" width="600" alt="Pie Chart London vs Other vs Rest">
 </p>
 
 ### Example Insight
