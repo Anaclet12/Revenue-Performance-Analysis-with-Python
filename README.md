@@ -51,10 +51,15 @@ The analysis follows a straightforward, results-oriented workflow:
 ## 5. Analysis and Results
 
 ### Key Visualizations
-- **Top 20 Cities by Total Spend** – identifies where customers spend the most.  
-- **Bottom 20 Cities by Total Spend** – highlights underperforming regions.  
+- **Top 10 Cities by Total Spend** – identifies where customers spend the most.
+<img width="301" height="221" alt="image" src="https://github.com/user-attachments/assets/f0de74dd-93dc-42d8-983e-c70e536dc9d7" />
+ 
+- **Bottom 10 Cities by Total Spend** – highlights underperforming regions.
+<img width="293" height="216" alt="image" src="https://github.com/user-attachments/assets/2745923a-ec7d-4e22-95c6-7009b6e766cb" />
+
 - **Pie Chart (London vs Other vs Rest)** – shows the dominance of London compared to other areas.  
-- **Interactive Bar Charts** – hover-enabled visualization of spending by city using Plotly.
+<img width="203" height="203" alt="image" src="https://github.com/user-attachments/assets/333091aa-d353-4335-8ba9-3727d1cb5830" />
+
 
 ### Example Insight
 > London accounts for over 20% of total customer spending, while the rest 75 big cities (24%) demonstrate moderate growth potential.
@@ -87,7 +92,7 @@ However, when comparing spending across all cities, we observe that **several re
 
 ## 8. Appendix
 **Tools and Libraries:**
-- Python (`pandas`, `plotly`)
+- Python (`pandas`, `matplotlib`, `plotly`)
 - Jupyter Notebook for exploratory analysis [Notebook link](https://github.com/Anaclet12/UK-Customer-Spending-Analysis/blob/main/scripts/UK%20Customer%20Spending%20Analysis.ipynb)
 - GOV.UK dataset for the official list of cities
 
