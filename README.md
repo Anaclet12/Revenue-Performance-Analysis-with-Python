@@ -1,7 +1,7 @@
 <img width="1790" height="620" alt="image" src="https://github.com/user-attachments/assets/68390f79-e5e9-44ef-99c3-9133323f1c00" />
 
 
-# 🏙️ UK Customer Spending Analysis
+# UK Customer Spending Analysis
 
 ## 1. Project Overview
 This project analyzes customer spending patterns across the company ProWidget Systems in the United Kingdom to identify cites with the highest and lowest spending levels.  
