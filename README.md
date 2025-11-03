@@ -72,11 +72,11 @@ However, when comparing spending across all cities, we observe that **several re
   - Use UK postcode data to identify cities/towns precisely.  
   - Ensure all addresses contain valid postcodes.
 
-- **Augment with demographics:**  
-  - Combine spending data with population and demographic data.  
+- **Augment with demographics and dates:**  
+  - Combine spending data with population and saisonality.  
   - Identify underserved cities based on spending per capita.
  
-  - **Differentiate customer types:**  
+- **Differentiate customer types:**  
   - Compare spending between business and private addresses. 
 
 - **Collaborate with stakeholders:**  
