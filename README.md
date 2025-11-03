@@ -1,14 +1,14 @@
 # 🏙️ UK Customer Spending Analysis
 
 ## 1. Project Overview
-This project analyzes customer spending patterns across the United Kingdom to identify regions with the highest and lowest spending levels.  
+This project analyzes customer spending patterns across the company ProWidget Systems in the United Kingdom to identify cites with the highest and lowest spending levels.  
 It also aims to uncover potential underserved cities based on total revenue and spending behavior.
 
 **Objective:**  
 Understand where customers spend the most and explore opportunities for deeper insights into geographic and demographic spending trends.
 
 **Dataset Used:**  
-- Customer transaction dataset including:
+- Customer transaction dataset filtered by:
   - `city`
   - `address`
   - `total_spend`
@@ -54,29 +54,27 @@ The analysis follows a straightforward, results-oriented workflow:
 - **Interactive Bar Charts** – hover-enabled visualization of spending by city using Plotly.
 
 ### Example Insight
-> London accounts for over 40% of total customer spending, while several medium-sized cities demonstrate moderate growth potential.
+> London accounts for over 20% of total customer spending, while the rest 75 big cities (24%) demonstrate moderate growth potential.
 
 ---
 
-## 6. Next Steps
-After presenting the results, stakeholders may request deeper analysis or more accurate data matching.  
-Potential directions include:
+## 6. Conclusion
+Our analysis confirms that **London customers account for the majority of total spending**, representing a substantial share of overall revenue across the United Kingdom.  
+
+However, when comparing spending across all cities, we observe that **several regional cities and towns remain underserved**, showing significantly lower total spend despite moderate population levels.  
+
+## 7. Recommendations
 
 - **Enhance city identification:**  
   - Use UK postcode data to identify cities/towns precisely.  
   - Ensure all addresses contain valid postcodes.
 
-- **Expand geographic coverage:**  
-  - Add towns above a certain population threshold.  
-  - Address cases where city names are missing in addresses.
-
-- **Explore geocoding solutions:**  
-  - Integrate third-party APIs (e.g., Google Maps) for better city identification.  
-  - Assess privacy and compliance implications before data sharing.
-
 - **Augment with demographics:**  
   - Combine spending data with population and demographic data.  
   - Identify underserved cities based on spending per capita.
+ 
+  - **Differentiate customer types:**  
+  - Compare spending between business and private addresses. 
 
 - **Collaborate with stakeholders:**  
   - Evaluate which enhancements provide tangible business value.  
@@ -84,31 +82,9 @@ Potential directions include:
 
 ---
 
-## 7. Further Analysis Opportunities
-Once the foundation is established, more advanced analyses can provide deeper insights:
-
-- **Granular geographic analysis:**  
-  - Drill down into sub-city regions (boroughs, districts, or regional clusters).  
-
-- **Differentiate customer types:**  
-  - Compare spending between business and private addresses.  
-
-- **Integrate demographic data:**  
-  - Add population or income data to compute **spending per capita**.  
-  - Explore relationships between wealth and spending intensity.  
-
----
-
-## 8. Conclusion
-This project provides a foundational understanding of customer spending across UK cities.  
-The findings highlight regional disparities and potential areas for business focus.  
-Future work should combine enriched geographic data and demographic insights to support targeted decision-making.
-
----
-
-## 9. Appendix
+## 8. Appendix
 **Tools and Libraries:**
-- Python (`pandas`, `matplotlib`, `plotly`, `numpy`, `seaborn`)
+- Python (`pandas`, `plotly`)
 - Jupyter Notebook for exploratory analysis
 - GOV.UK dataset for the official list of cities
 
@@ -119,6 +95,6 @@ Future work should combine enriched geographic data and demographic insights to 
 
 ---
 
-✳️ *Author:* Your Name  
+✳️ *Author:* Anaclet Sado Fokam  
 📅 *Date:* November 2025  
 💼 *Project Type:* Data Analytics / Business Insights  
