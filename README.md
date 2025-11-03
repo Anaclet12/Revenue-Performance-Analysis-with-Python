@@ -60,7 +60,6 @@ The analysis follows a straightforward, results-oriented workflow:
 - **Pie Chart (London vs Other vs Rest)** – shows the dominance of London compared to other areas.  
 <img width="203" height="203" alt="image" src="https://github.com/user-attachments/assets/333091aa-d353-4335-8ba9-3727d1cb5830" />
 
-
 ### Example Insight
 > London accounts for over 20% of total customer spending, while the rest 75 big cities (24%) demonstrate moderate growth potential.
 
