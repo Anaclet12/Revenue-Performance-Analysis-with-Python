@@ -58,7 +58,7 @@ The analysis follows a straightforward, results-oriented workflow:
  
 - **Bottom 10 Cities by Total Spend** – highlights underperforming regions.
 <p align="center">
-  <img src="images/bottom10_chart.png" width="800" alt="Bottom 10 Cities by Total Spend">
+  <img src="docs/bottom_10_citites_by_total_customer_spend.png" width="800" alt="Bottom 10 Cities by Total Spend">
 </p>
 
 - **Pie Chart (London vs Other vs Rest)** – shows the dominance of London compared to other areas.  
