@@ -53,7 +53,7 @@ The analysis follows a straightforward, results-oriented workflow:
 ### Key Visualizations
 - **Top 10 Cities by Total Spend** – identifies where customers spend the most.
 <p align="center">
-  <img src="images/top10_chart.png" width="800" alt="Top 10 Cities by Total Spend">
+  <img src="images/newplot.png" width="800" alt="Top 10 Cities by Total Spend">
 </p>
  
 - **Bottom 10 Cities by Total Spend** – highlights underperforming regions.
