@@ -1,4 +1,4 @@
-![UK Customer Spending Banner]<img width="1790" height="620" alt="image" src="https://github.com/user-attachments/assets/68390f79-e5e9-44ef-99c3-9133323f1c00" />
+<img width="1790" height="620" alt="image" src="https://github.com/user-attachments/assets/68390f79-e5e9-44ef-99c3-9133323f1c00" />
 
 
 # 🏙️ UK Customer Spending Analysis
