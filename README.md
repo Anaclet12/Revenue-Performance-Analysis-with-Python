@@ -52,13 +52,19 @@ The analysis follows a straightforward, results-oriented workflow:
 
 ### Key Visualizations
 - **Top 10 Cities by Total Spend** – identifies where customers spend the most.
-<img width="301" height="221" alt="image" src="https://github.com/user-attachments/assets/f0de74dd-93dc-42d8-983e-c70e536dc9d7" />
+<p align="center">
+  <img src="images/top10_chart.png" width="800" alt="Top 10 Cities by Total Spend">
+</p>
  
 - **Bottom 10 Cities by Total Spend** – highlights underperforming regions.
-<img width="293" height="216" alt="image" src="https://github.com/user-attachments/assets/2745923a-ec7d-4e22-95c6-7009b6e766cb" />
+<p align="center">
+  <img src="images/bottom10_chart.png" width="800" alt="Bottom 10 Cities by Total Spend">
+</p>
 
 - **Pie Chart (London vs Other vs Rest)** – shows the dominance of London compared to other areas.  
-<img width="203" height="203" alt="image" src="https://github.com/user-attachments/assets/333091aa-d353-4335-8ba9-3727d1cb5830" />
+<p align="center">
+  <img src="images/pie_chart.png" width="600" alt="Pie Chart London vs Other vs Rest">
+</p>
 
 ### Example Insight
 > London accounts for over 20% of total customer spending, while the rest 75 big cities (24%) demonstrate moderate growth potential.
