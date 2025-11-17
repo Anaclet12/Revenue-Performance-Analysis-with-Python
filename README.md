@@ -120,42 +120,98 @@ The underserved score is a weighted combination of our three metrics normalized.
 The metrics are normalized so they are comparable on the same scale, preventing any one measure from dominating the score due to differences in units or magnitude.<br>
 Company share receives the highest weight (0.4) because a city with many companies but low revenue is the strongest signal of being underserved.<br>
 Spend share and spend per company each receive a weight of 0.3, since together they show how effectively the market potential is being converted into revenue and customer engagement.<br>
--Most cities cluster around the bottom-left corner (very small company and spend shares), confirming they are micro-markets.<br>
--London and OTHER lie along the diagonal, where revenue is broadly proportional to market size.<br>
--No large city falls far below the diagonal, indicating that there is no major region where revenue dramatically lags behind the size of the customer base.<br>
--The highest underserved scores therefore relate to very small cities with low absolute revenue, which are opportunities but not immediate priority markets.
+- Most cities cluster around the bottom-left corner (very small company and spend shares), confirming they are micro-markets.<br>
+- London and OTHER lie along the diagonal, where revenue is broadly proportional to market size.<br>
+- No large city falls far below the diagonal, indicating that there is no major region where revenue dramatically lags behind the size of the customer base.<br>
+- The highest underserved scores therefore relate to very small cities with low absolute revenue, which are opportunities but not immediate priority markets.
 
 ---
 
 ## 6. Conclusion
-Our analysis confirms that **London customers account for the majority of total spending**, representing a substantial share of overall revenue across the United Kingdom.  
+This project shows that:
+- Revenue is **highly concentrated** in **LONDON** and the **OTHER** category, but the **REST OF CITIES** still contributes a meaningful share.
+- A set of cities (**ST DAVIDS, BRIGHTON & HOVE, ST ASAPH, RIPON, NEWPORT**, etc.) consistently underperform across multiple metrics, indicating **weak adoption and engagement** despite the presence of some customers.
+- There is **no major city** where revenue is dramatically out of line with its market size; underservice is mainly a **long-tail phenomenon**, not a large structural problem.
+- London performs broadly as expected, though there is still room to improve **spend per company**.
 
-However, when comparing spending across all cities, we observe that **several regional cities and towns remain underserved**, showing significantly lower total spend despite moderate population levels.  
+These findings provide a **data-driven view of geographic performance** and a solid foundation for the board to prioritize commercial actions.
+ 
 
 ## 7. Recommendations
 
-- **Enhance city identification:**  
-  - Use UK postcode data to identify cities/towns precisely.  
-  - Ensure all addresses contain valid postcodes.
+### 7.1 Targeted Activation in the Most Underserved Cities
 
-- **Augment with demographics and dates:**  
-  - Combine spending data with population and saisonality.  
-  - Identify underserved cities based on spending per capita.
- 
-- **Differentiate customer types:**  
-  - Compare spending between business and private addresses. 
+**Cities concerned:** ST DAVIDS, BRIGHTON & HOVE, ST ASAPH, RIPON, and a small group of similar towns.
 
-- **Collaborate with stakeholders:**  
-  - Evaluate which enhancements provide tangible business value.  
-  - Prioritize work aligned with strategic goals.
+These locations **do have customers**, but they show **very low spend and weak engagement**.
+
+**Suggested actions:**
+- **Sales** → re-engage existing accounts with targeted outreach.  
+- **Customer Success** → run light onboarding or usage review sessions to boost product adoption.  
+- **Marketing** → deploy low-cost, scalable campaigns (emails, webinars, demos) focused on these underserved areas.  
+
+### 7.2 Strengthen Engagement in London
+
+London remains a **strategic market** with high company and revenue share, but there is still room to increase **spend per company**.
+
+**Suggested actions:**
+- **Account Management** → identify growth-ready accounts and build penetration plans.  
+- **Marketing** → reinforce brand presence through focused campaigns.  
+- **Customer Success** → encourage product adoption and cross-sell / up-sell initiatives.  
+
+### 7.3 Break Down the “OTHER” Group for Further Analysis
+
+The **OTHER** group aggregates a mix of cities, dependencies, and overseas territories that could not be precisely mapped.  
+This category appears **unexpectedly large**, which suggests that several meaningful UK locations may be hidden inside it.
+
+**Why this matters:**
+- The size of the group distorts city-level insights.  
+- Some potentially important cities may be misclassified.  
+- Breaking down OTHER may reveal **new underserved or high-potential areas**.  
+
+**Suggested next steps:**
+- Perform a dedicated cleanup of addresses assigned to **OTHER**.  
+- Use postcode data or additional geocoding tools to correctly map each location.  
+- Re-run the underserved score after reclassification to reveal a more accurate ranking.  
+
+### 7.4 Establish a Simple Monthly Monitoring Routine
+
+Even without a dedicated data team, the company can maintain a **light, effective analytics workflow**:
+
+- Nominate an internal **“data champion”** (within Sales Ops or Finance).  
+- Export city-level data **monthly**.  
+- Track key KPIs:
+  - `company_count`  
+  - `total_spend`  
+  - `spend_per_company`  
+  - `company_share`  
+  - `spend_share`  
+- Update the underserved ranking periodically to measure the impact of commercial actions.  
+
+A simple dashboard or shared spreadsheet is enough to support ongoing decision-making.
+
+### 7.5 Improve and Enrich the Dataset
+
+Before scaling decisions, the board should support **better data collection** to enable deeper and more reliable analysis.
+
+**What to add:**
+- Transaction **dates** to analyze recency, frequency, and seasonality.  
+- Clear separation of **B2B vs B2C** customers.  
+- Basic customer attributes (**company size**, **sector**, when available).  
+
+**Teams to engage:**
+- **Sales** → responsible for CRM hygiene and accurate exports.  
+- **Customer Success / Support** → can provide qualitative context and identify usage or onboarding gaps.  
+
+Improving data quality will enable more advanced segmentation—such as spend per capita, sector-based behavior, or churn risk—and support more strategic decisions.
 
 ---
 
 ## 8. Appendix
 **Tools and Libraries:**
-- Python (`pandas`, `matplotlib`, `plotly`)
+- Python (`pandas`, `matplotlib`, `plotly.express`, `plotly.graph_objects`)
 - Jupyter Notebook for exploratory analysis [Notebook link](https://github.com/Anaclet12/UK-Customer-Spending-Analysis/blob/main/scripts/UK%20Customer%20Spending%20Analysis.ipynb)
-- GOV.UK dataset for the official list of cities
+- GOV.UK dataset for the official list of cities (f0r validation and standardization)
 
 **Key Resources:**
 - [UK Cities List (GOV.UK)](https://www.gov.uk/government/publications/list-of-cities/list-of-cities-html)
