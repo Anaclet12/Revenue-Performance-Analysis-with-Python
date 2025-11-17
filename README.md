@@ -58,14 +58,9 @@ The analysis follows a straightforward, results-oriented workflow:
   <img src="docs/Top 10 Cities by Spends and Companies.png" width="800" alt="Top 10 Cities by Spends and Companies">
 </p>
 The group OTHER is at the top in term of spendings and transactions.
-It is followed by LONDON, whose spending and transactions are +10 times more than its closest follower city
-We were clearly identify in the dataset the primary UK cities, and the rest such as the Isle of Man and the Overseas Territories were grouped under OTHER.This creates a slight distortion, since these locations appear unusually large in the charts compared to what we would expect. 
+It is followed by LONDON, whose spending and transactions are +10 times more than its closest follower city  
+We were clearly identify in the dataset the primary UK cities, and the rest such as the Isle of Man and the Overseas   Territories were grouped under OTHER.This creates a slight distortion, since these locations appear unusually large in the charts compared to what we would expect.   
 Nevertheless, the OTHER category remains an interesting area for further analysis, as breaking it down could reveal meaningful patterns once the underlying cities are properly classified.
- 
-- **Bottom 10 Cities by Total Spend** – highlights underperforming regions.
-<p align="center">
-  <img src="docs/bottom_10_citites_by_total_customer_spend.png" width="800" alt="Bottom 10 Cities by Total Spend">
-</p>
 
 - **London vs Other vs Rest** – shows the dominance of London compared to other areas.  
 <p align="center">
