@@ -66,9 +66,18 @@ Nevertheless, the OTHER category remains an interesting area for further analysi
 <p align="center">
   <img src="docs/London focus.png" width="600" alt="Pie Chart London vs Other vs Rest">
 </p>
+The customers spend the most in bigger cities since there are generally more customers in larger cities, and London generates nearly as much income as all the other big cities combined.
 
-### Example Insight
-> London accounts for over 20% of total customer spending, while the rest 75 big cities (24%) demonstrate moderate growth potential.
+- **Market Distribution**: shows the lowest city on the KPIs extracted for our analysis.
+<p align="center">
+  <img src="docs/Market Distributions.png" width="600" alt="Market Distribution">
+</p>
+**On the left**, cities have a very small company base, so naturally they contribute little to total revenue.  
+**On the middle**, these cities produce extremely low revenue and may be weak markets, inactive, or underserved, epending on how many companies they contain.  
+**On the right**, these cities show low adoption, weak usage, and true `underserved potential`, even when they have companies present.  
+When the same cities appear repeatedly across the three charts, the pattern is clear, they are the most underserved, either because they lack reach, awareness, or proper customer activation.  
+Cities consistently showing up across all three metrics:  
+`ST DAVIDS`, `BRIGHTON & HOVE`, `ST ASAPH` and `RIPON`
 
 ---
 
