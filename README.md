@@ -60,7 +60,7 @@ The analysis follows a straightforward, results-oriented workflow:
 The group OTHER is at the top in term of spendings and transactions.
 It is followed by LONDON, whose spending and transactions are +10 times more than its closest follower city<br>  
 We were clearly identify in the dataset the primary UK cities, and the rest such as the Isle of Man and the Overseas <br>  Territories were grouped under OTHER.This creates a slight distortion, since these locations appear unusually large in the charts compared to what we would expect.<br>   
-Nevertheless, the OTHER category remains an interesting area for further analysis, as breaking it down could reveal meaningful patterns once the underlying cities are properly classified.
+Nevertheless, the OTHER category remains an interesting area for further analysis, as breaking it down could reveal meaningful patterns once the underlying cities are properly classified.<br>
 
 - **London vs Other vs Rest** – shows the dominance of London compared to other areas.  
 <p align="center">
