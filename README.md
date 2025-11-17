@@ -68,16 +68,37 @@ Nevertheless, the OTHER category remains an interesting area for further analysi
 </p>
 The customers spend the most in bigger cities since there are generally more customers in larger cities, and London generates nearly as much income as all the other big cities combined.
 
+- **City-Level Performance Metrics**: To go beyond simple totals, three key indicators were computed for each city:
+
+Company Count (company_count)
+Number of unique company_id in the city.
+→ Measures market size in terms of existing customers.
+
+Total Spend (total_spend)
+Sum of total_spend in the city.
+→ Measures revenue contribution.
+
+Spend per Company (spend_per_company)
+total_spend / company_count.
+→ Measures average engagement / adoption level per company.
+
+From these, two shares were derived:
+
+company_share = company_count / total_companies
+
+spend_share = total_spend / total_spend_all_cities
+
+These allow us to compare a city’s market size with its revenue contribution.
+
 - **Market Distribution**: shows the lowest city on the KPIs extracted for our analysis.
 <p align="center">
   <img src="docs/Market Distribution.png" width="600" alt="Market Distribution">
 </p>
-
-**On the left**, cities have a very small company base, so naturally they contribute little to total revenue. 
-**On the middle**, these cities produce extremely low revenue and may be weak markets, inactive, or underserved, epending on how many companies they contain.
-**On the right**, these cities show low adoption, weak usage, and true `underserved potential`, even when they have companies present.
-When the same cities appear repeatedly across the three charts, the pattern is clear, they are the most underserved, either because they lack reach, awareness, or proper customer activation.
-Cities consistently showing up across all three metrics:
+**On the left**, cities have a very small company base, so naturally they contribute little to total revenue.<br> 
+**On the middle**, these cities produce extremely low revenue and may be weak markets, inactive, or underserved, epending on how many companies they contain.<br>
+**On the right**, these cities show low adoption, weak usage, and true `underserved potential`, even when they have companies present.<br>
+When the same cities appear repeatedly across the three charts, the pattern is clear, they are the most underserved, either because they lack reach, awareness, or proper customer activation.<br>
+Cities consistently showing up across all three metrics:<br>
 `ST DAVIDS`, `BRIGHTON & HOVE`, `ST ASAPH` and `RIPON`
 
 ---
