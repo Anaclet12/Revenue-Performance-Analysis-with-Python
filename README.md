@@ -68,27 +68,27 @@ Nevertheless, the OTHER category remains an interesting area for further analysi
 </p>
 The customers spend the most in bigger cities since there are generally more customers in larger cities, and London generates nearly as much income as all the other big cities combined.
 
-- **City-Level Performance Metrics**: To go beyond simple totals, three key indicators were computed for each city:
+- **City-Level Performance Metrics** - To go beyond simple totals, three key indicators were computed for each city:
 
-Company Count (company_count)
-Number of unique company_id in the city.
-→ Measures market size in terms of existing customers.
+Company Count (company_count)<br>
+Number of unique company_id in the city.<br>
+→ Measures market size in terms of existing customers.<br>
 
-Total Spend (total_spend)
-Sum of total_spend in the city.
-→ Measures revenue contribution.
+Total Spend (total_spend)<br>
+Sum of total_spend in the city.<br>
+→ Measures revenue contribution.<br>
 
-Spend per Company (spend_per_company)
-total_spend / company_count.
-→ Measures average engagement / adoption level per company.
+Spend per Company (spend_per_company)<br>
+total_spend / company_count.<br>
+→ Measures average engagement / adoption level per company.<br>
 
-From these, two shares were derived:
+From these, two shares were derived:<br>
 
-company_share = company_count / total_companies
+company_share = company_count / total_companies<br>
 
-spend_share = total_spend / total_spend_all_cities
+spend_share = total_spend / total_spend_all_cities<br>
 
-These allow us to compare a city’s market size with its revenue contribution.
+These allow us to compare a city’s market size with its revenue contribution.<br>
 
 - **Market Distribution**: shows the lowest city on the KPIs extracted for our analysis.
 <p align="center">
