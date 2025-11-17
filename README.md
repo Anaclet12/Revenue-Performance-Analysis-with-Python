@@ -4,25 +4,25 @@
 # Revenue Performance Analysis with Python
 
 ## 1. Project Overview
-This project analyzes customer spending patterns across the company ProWidget Systems in the United Kingdom to identify cites with the highest and lowest spending levels.  
-It also aims to uncover potential underserved cities based on total revenue and spending behavior.
+This project analyzes customer spending patterns for **ProWidget Systems** in the United Kingdom using a customer transactions dataset.
+The focus is on **city-level performance**: answering where revenue is concentrated, which cities generate the most and the least revenue, and which locations may be underserved relative to their potential.
 
 **Objective:**  
 Understand where customers spend the most and explore opportunities for deeper insights into geographic and demographic spending trends.
 
 **Dataset Used:**  
 - Customer transaction dataset filtered by:
-  - `city`
-  - `address`
-  - `total_spend`
+  - `company_id` - unique identifier for each customer
+  - `address` - customer address (raw text)
+  - `total_spend` - total amount spent by the customer
 
 ---
 
 ## 2. Problem Statement
-Our main business question:  
+The initial business question from the board was:  
 > **Which cities in the UK have the highest customer spending, and which are underserved compared to London?**
 
-Additional sub-questions:
+To answer this question, we explore several sub-question:
 - How does spending vary by city and region?
 - How concentrated is spending in London versus the rest of the UK?
 - What strategies could help better serve low-spending areas?
@@ -34,8 +34,10 @@ The analysis follows a straightforward, results-oriented workflow:
 1. **Data Understanding** – reviewed customer address formats, identified inconsistencies, and missing values.  
 2. **Data Cleaning** – standardized addresses, removed duplicates, and normalized city names.  
 3. **City Identification** – matched addresses with the official [UK Cities List](https://www.gov.uk/government/publications/list-of-cities/list-of-cities-html).  
-4. **Exploratory Analysis** – calculated total spending by city, visualized distributions, and identified top/bottom performers.  
-5. **Communication of Findings** – visualized results with Matplotlib and Plotly for stakeholder presentations.
+4. **Exploratory Analysis** – calculated total spending by city, visualized distributions, and identified top/bottom performers.
+5. **Feature Engineering (City-Level Metrics)** - Computed key city-level indicators — company count, total spend, spend per company, and market/revenue shares.
+6. **Underserved Cities Framework** Built a composite underserved score by combining company share, spend share, and spend per company to identify cities where customer presence exceeds revenue contribution.
+7. **Communication of Findings** – visualized results with Matplotlib and Plotly for stakeholder presentations.
 
 ---
 
@@ -50,10 +52,10 @@ The analysis follows a straightforward, results-oriented workflow:
 
 ## 5. Analysis and Results
 
-### Key Visualizations
+### 5.1 Revenue Concentration by City
 - **Top 10 Cities by Total Spend** – identifies where customers spend the most.
 <p align="center">
-  <img src="docs/top_10_citites_by_total_customer_spend.png" width="800" alt="Top 10 Cities by Total Spend">
+  <img src="docs/Top 10 Cities by Spends and Companies.png" width="800" alt="Top 10 Cities by Spends and Companies">
 </p>
  
 - **Bottom 10 Cities by Total Spend** – highlights underperforming regions.
