@@ -52,7 +52,8 @@ The analysis follows a straightforward, results-oriented workflow:
 
 ## 5. Analysis and Results
 
-### 5.1 **Top 10 Cities by Total Spend** – identifies where customers spend the most.
+### 5.1 **Top 10 Cities by Total Spend**:
+Identifies where customers spend the most.
 <p align="center">
   <img src="docs/Top 10 Cities by Spends and Companies.png" width="800" alt="Top 10 Cities by Spends and Companies">
 </p>
@@ -61,13 +62,15 @@ It is followed by LONDON, whose spending and transactions are +10 times more tha
 We were clearly identify in the dataset the primary UK cities, and the rest such as the Isle of Man and the Overseas <br>  Territories were grouped under OTHER.This creates a slight distortion, since these locations appear unusually large in the charts compared to what we would expect.<br>   
 Nevertheless, the OTHER category remains an interesting area for further analysis, as breaking it down could reveal meaningful patterns once the underlying cities are properly classified.<br>
 
-### 5.2 **London vs Other vs Rest** – shows the dominance of London compared to other areas.  
+### 5.2 **London vs Other vs Rest**:
+Shows the dominance of London compared to other areas.  
 <p align="center">
   <img src="docs/London focus.png" width="600" alt="Pie Chart London vs Other vs Rest">
 </p>
 The customers spend the most in bigger cities since there are generally more customers in larger cities, and London generates nearly as much income as all the other big cities combined.<br>
 
-### 5.3 **City-Level Performance Metrics** - To go beyond simple totals, three key indicators were computed for each city:
+### 5.3 **City-Level Performance Metrics**:
+To go beyond simple totals, three key indicators were computed for each city:
 
 Company Count (company_count)<br>
 Number of unique company_id in the city.<br>
@@ -89,7 +92,8 @@ spend_share = total_spend / total_spend_all_cities<br>
 
 These allow us to compare a city’s market size with its revenue contribution.<br>
 
-### 5.4 **Market Distribution** - shows the lowest city on the KPIs extracted for our analysis.
+### 5.4 **Market Distribution**:
+Shows the lowest city on the KPIs extracted for our analysis.
 <p align="center">
   <img src="docs/Market Distribution.png" width="600" alt="Market Distribution">
 </p>
@@ -100,7 +104,26 @@ When the same cities appear repeatedly across the three charts, the pattern is c
 Cities consistently showing up across all three metrics:<br>
 `ST DAVIDS`, `BRIGHTON & HOVE`, `ST ASAPH` and `RIPON`
 
-### 5.5 
+### 5.5 **Underserved Score**
+<p align="center">
+  <img src="docs/Company Share vs Spend Share.png" width="600" alt="Company Share vs Spend Share">
+</p>
+This scatter plot shows the trend of the underserved since it visualize the company_share and spend_share together.  
+Most cities cluster around the bottom-left corner (very small company and spend shares), confirming they are micro-markets.
+London and OTHER lie along the diagonal, where revenue is broadly proportional to market size.
+No large city falls far below the diagonal, indicating that there is no major region where revenue dramatically lags behind the size of the customer base.
+The highest underserved scores therefore relate to very small cities with low absolute revenue, which are opportunities but not immediate priority markets.
+<p align="center">
+  <img src="docs/Underserved Score.png" width="600" alt="Underserved Score">
+</p>
+The underserved score is a weighted combination of our three metrics normalized.
+The metrics are normalized so they are comparable on the same scale, preventing any one measure from dominating the score due to differences in units or magnitude.
+Company share receives the highest weight (0.4) because a city with many companies but low revenue is the strongest signal of being underserved.
+Spend share and spend per company each receive a weight of 0.3, since together they show how effectively the market potential is being converted into revenue and customer engagement.
+-Most cities cluster around the bottom-left corner (very small company and spend shares), confirming they are micro-markets.
+-London and OTHER lie along the diagonal, where revenue is broadly proportional to market size.
+-No large city falls far below the diagonal, indicating that there is no major region where revenue dramatically lags behind the size of the customer base.
+-The highest underserved scores therefore relate to very small cities with low absolute revenue, which are opportunities but not immediate priority markets.
 
 ---
 
