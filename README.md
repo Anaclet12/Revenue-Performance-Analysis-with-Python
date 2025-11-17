@@ -116,13 +116,13 @@ The highest underserved scores therefore relate to very small cities with low ab
 <p align="center">
   <img src="docs/Underserved Score.png" width="600" alt="Underserved Score">
 </p>
-The underserved score is a weighted combination of our three metrics normalized.
-The metrics are normalized so they are comparable on the same scale, preventing any one measure from dominating the score due to differences in units or magnitude.
-Company share receives the highest weight (0.4) because a city with many companies but low revenue is the strongest signal of being underserved.
-Spend share and spend per company each receive a weight of 0.3, since together they show how effectively the market potential is being converted into revenue and customer engagement.
--Most cities cluster around the bottom-left corner (very small company and spend shares), confirming they are micro-markets.
--London and OTHER lie along the diagonal, where revenue is broadly proportional to market size.
--No large city falls far below the diagonal, indicating that there is no major region where revenue dramatically lags behind the size of the customer base.
+The underserved score is a weighted combination of our three metrics normalized.<br>
+The metrics are normalized so they are comparable on the same scale, preventing any one measure from dominating the score due to differences in units or magnitude.<br>
+Company share receives the highest weight (0.4) because a city with many companies but low revenue is the strongest signal of being underserved.<br>
+Spend share and spend per company each receive a weight of 0.3, since together they show how effectively the market potential is being converted into revenue and customer engagement.<br>
+-Most cities cluster around the bottom-left corner (very small company and spend shares), confirming they are micro-markets.<br>
+-London and OTHER lie along the diagonal, where revenue is broadly proportional to market size.<br>
+-No large city falls far below the diagonal, indicating that there is no major region where revenue dramatically lags behind the size of the customer base.<br>
 -The highest underserved scores therefore relate to very small cities with low absolute revenue, which are opportunities but not immediate priority markets.
 
 ---
