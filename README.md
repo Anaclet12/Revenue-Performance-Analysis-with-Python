@@ -205,6 +205,7 @@ Before scaling decisions, the board should support **better data collection** to
 
 Improving data quality will enable more advanced segmentation—such as spend per capita, sector-based behavior, or churn risk—and support more strategic decisions.
 
+This analysis provides a clear, data-driven understanding of how revenue is distributed across UK cities, revealing both strong markets like London and a long tail of small, underserved locations.
 ---
 
 ## 8. Appendix
