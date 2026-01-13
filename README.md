@@ -65,7 +65,7 @@ Nevertheless, the OTHER category remains an interesting area for further analysi
 ### 5.2 **London vs Other vs Rest**:
 Shows the dominance of London compared to other areas.  
 <p align="center">
-  <img src="docs/London focus.png" width="600" alt="Pie Chart London vs Other vs Rest">
+  <img src="" width="600" alt="Pie Chart London vs Other vs Rest">
 </p>
 The customers spend the most in bigger cities since there are generally more customers in larger cities, and London generates nearly as much income as all the other big cities combined.<br>
 
