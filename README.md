@@ -1,5 +1,5 @@
-<img width="1790" height="620" alt="image" src="https://github.com/user-attachments/assets/68390f79-e5e9-44ef-99c3-9133323f1c00" />
 
+[![Watch the Demo](https://img.youtube.com/vi/tMBz8HLSHmI/0.jpg)](https://www.youtube.com/watch?v=tMBz8HLSHmI&t=26s)
 
 # Revenue Performance Analysis with Python
 
