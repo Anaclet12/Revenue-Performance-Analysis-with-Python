@@ -1,5 +1,4 @@
-
-[![Watch the Demo](https://img.youtube.com/vi/tMBz8HLSHmI/0.jpg)](https://www.youtube.com/watch?v=tMBz8HLSHmI&t=26s)
+<img width="1790" height="620" alt="image" src="https://github.com/user-attachments/assets/68390f79-e5e9-44ef-99c3-9133323f1c00" />
 
 # Revenue Performance Analysis with Python
 
@@ -215,8 +214,8 @@ This analysis provides a clear, data-driven understanding of how revenue is dist
 - GOV.UK dataset for the official list of cities (f0r validation and standardization)
 ---
 
-**Video presentation:**
-[![Watch the Demo](https://img.youtube.com/vi/tMBz8HLSHmI/0.jpg)](https://www.youtube.com/watch?v=tMBz8HLSHmI&t=26s)
+## 🎥 Video Presentation:
+[![Watch on YouTube](https://img.shields.io/badge/Watch%20on-YouTube-red?logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=tMBz8HLSHmI&t=26s)
 
 **Key Resources:**
 - [UK Cities List (GOV.UK)](https://www.gov.uk/government/publications/list-of-cities/list-of-cities-html)
