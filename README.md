@@ -213,6 +213,10 @@ This analysis provides a clear, data-driven understanding of how revenue is dist
 - Python (`pandas`, `matplotlib`, `plotly.express`, `plotly.graph_objects`)
 - Jupyter Notebook for exploratory analysis [Notebook link](https://github.com/Anaclet12/UK-Customer-Spending-Analysis/blob/main/scripts/UK%20Customer%20Spending%20Analysis.ipynb)
 - GOV.UK dataset for the official list of cities (f0r validation and standardization)
+---
+
+**Video presentation:**
+[![Watch the Demo](https://img.youtube.com/vi/tMBz8HLSHmI/0.jpg)](https://www.youtube.com/watch?v=tMBz8HLSHmI&t=26s)
 
 **Key Resources:**
 - [UK Cities List (GOV.UK)](https://www.gov.uk/government/publications/list-of-cities/list-of-cities-html)
