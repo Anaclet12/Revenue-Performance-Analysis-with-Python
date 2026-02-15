@@ -1,6 +1,6 @@
 <img width="1790" height="620" alt="image" src="https://github.com/user-attachments/assets/68390f79-e5e9-44ef-99c3-9133323f1c00" />
 
-# Revenue Performance Analysis with Python
+# Revenue Performance Analysis
 
 ## 1. Project Overview
 This project analyzes customer spending patterns for **ProWidget Systems** in the United Kingdom using a customer transactions dataset.
@@ -10,7 +10,7 @@ The focus is on **city-level performance**: answering where revenue is concentra
 Understand where customers spend the most and explore opportunities for deeper insights into geographic and demographic spending trends.
 
 **Dataset Used:**  
-- Customer transaction dataset filtered by:
+- Customer transaction dataset with 100,000 rows filtered by:
   - `company_id` - unique identifier for each customer
   - `address` - customer address (raw text)
   - `total_spend` - total amount spent by the customer
